@@ -1,0 +1,9 @@
+.postList {
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+  min-height: 500px;
+  background-color: lightcoral;
+}
