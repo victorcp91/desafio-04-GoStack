@@ -10,7 +10,7 @@ class PostList extends Component {
         id: 1,
         author: {
           name: "Julio Alcantara",
-          avatar: "http://url-da-imagem.com/imagem.jpg"
+          avatar: "http://localhost:8080/images/profile1.png"
         },
         date: "04 Jun 2019",
         content: "Pessoal, alguém sabe se a Rocketseat está contratando?",
@@ -19,9 +19,19 @@ class PostList extends Component {
             id: 1,
             author: {
               name: "Diego Fernandes",
-              avatar: "http://url-da-imagem.com/imagem.jpg"
+              avatar: "http://localhost:8080/images/profile3.png"
             },
-            content: "Conteúdo do comentário"
+            content:
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, pariatur. Dicta officia quia iste quasi numquam harum tempora doloremque deleniti? Pariatur, quae inventore nobis deleniti cum qui molestias tempora odio."
+          },
+          {
+            id: 2,
+            author: {
+              name: "Diego Fernandes",
+              avatar: "http://localhost:8080/images/profile3.png"
+            },
+            content:
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, pariatur. Dicta officia quia iste quasi numquam harum tempora doloremque deleniti? Pariatur, quae inventore nobis deleniti cum qui molestias tempora odio."
           }
         ]
       },
@@ -29,7 +39,7 @@ class PostList extends Component {
         id: 2,
         author: {
           name: "Julio Alcantara",
-          avatar: "http://url-da-imagem.com/imagem.jpg"
+          avatar: "http://localhost:8080/images/profile2.png"
         },
         date: "04 Jun 2019",
         content: "Pessoal, alguém sabe se a Rocketseat está contratando?",
@@ -38,9 +48,10 @@ class PostList extends Component {
             id: 1,
             author: {
               name: "Diego Fernandes",
-              avatar: "http://url-da-imagem.com/imagem.jpg"
+              avatar: "http://localhost:8080/images/profile3.png"
             },
-            content: "Conteúdo do comentário"
+            content:
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, pariatur. Dicta officia quia iste quasi numquam harum tempora doloremque deleniti? Pariatur, quae inventore nobis deleniti cum qui molestias tempora odio."
           }
         ]
       },
@@ -48,7 +59,7 @@ class PostList extends Component {
         id: 3,
         author: {
           name: "Julio Alcantara",
-          avatar: "http://url-da-imagem.com/imagem.jpg"
+          avatar: "http://localhost:8080/images/profile1.png"
         },
         date: "04 Jun 2019",
         content: "Pessoal, alguém sabe se a Rocketseat está contratando?",
@@ -57,9 +68,10 @@ class PostList extends Component {
             id: 1,
             author: {
               name: "Diego Fernandes",
-              avatar: "http://url-da-imagem.com/imagem.jpg"
+              avatar: "http://localhost:8080/images/profile2.png"
             },
-            content: "Conteúdo do comentário"
+            content:
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, pariatur. Dicta officia quia iste quasi numquam harum tempora doloremque deleniti? Pariatur, quae inventore nobis deleniti cum qui molestias tempora odio."
           }
         ]
       },
@@ -67,7 +79,7 @@ class PostList extends Component {
         id: 4,
         author: {
           name: "Julio Alcantara",
-          avatar: "http://url-da-imagem.com/imagem.jpg"
+          avatar: "http://localhost:8080/images/profile3.png"
         },
         date: "04 Jun 2019",
         content: "Pessoal, alguém sabe se a Rocketseat está contratando?",
@@ -76,9 +88,19 @@ class PostList extends Component {
             id: 1,
             author: {
               name: "Diego Fernandes",
-              avatar: "http://url-da-imagem.com/imagem.jpg"
+              avatar: "http://localhost:8080/images/profile1.png"
             },
-            content: "Conteúdo do comentário"
+            content:
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, pariatur. Dicta officia quia iste quasi numquam harum tempora doloremque deleniti? Pariatur, quae inventore nobis deleniti cum qui molestias tempora odio."
+          },
+          {
+            id: 2,
+            author: {
+              name: "Diego Fernandes",
+              avatar: "http://localhost:8080/images/profile1.png"
+            },
+            content:
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, pariatur. Dicta officia quia iste quasi numquam harum tempora doloremque deleniti? Pariatur, quae inventore nobis deleniti cum qui molestias tempora odio."
           }
         ]
       }

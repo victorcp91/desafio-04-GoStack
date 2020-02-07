@@ -8,7 +8,12 @@
   padding: 0 40px;
   min-height: 64px;
 }
+
 .logo {
   margin: 0;
   padding: 0;
+}
+
+.profile {
+  font-weight: bold;
 }

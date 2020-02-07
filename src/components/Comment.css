@@ -1,0 +1,27 @@
+.comment {
+  display: flex;
+}
+
+.commentAvatar {
+  min-width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: gray;
+  margin-right: 20px;
+  vertical-align: top;
+
+}
+
+.commentContent {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  background-color: #EEEEEE;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  ;
+}
